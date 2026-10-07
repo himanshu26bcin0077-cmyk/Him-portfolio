@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Himanshu Kumawat - Civil Engineering Student</title>
+  <meta name="description" content="Civil engineering projects, laboratory investigations, CAD drafting sets, and structural models by Himanshu Kumawat.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo">
+        <div class="brand-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M2 18h20"></path>
+            <path d="M4 18v-4a8 8 0 0 1 16 0v4"></path>
+            <path d="M12 2v4"></path>
+            <path d="M12 10v4"></path>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">Himanshu Kumawat</span>
+          <span class="brand-tag">Civil Engg • 1st Year</span>
+        </div>
+      </a>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About Me</a></li>
+        <li><a href="education.html" class="nav-link">Education</a></li>
+        <li><a href="skills.html" class="nav-link">Skills</a></li>
+        <li><a href="projects.html" class="nav-link active">Projects</a></li>
+        <li><a href="certifications.html" class="nav-link">Certifications</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="https://github.com/himanshukumawat" target="_blank" rel="noopener noreferrer" class="nav-btn github" title="GitHub Profile">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+          </svg>
+        </a>
+        <a href="https://linkedin.com/in/himanshukumawat" target="_blank" rel="noopener noreferrer" class="nav-btn linkedin" title="LinkedIn Profile">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+          </svg>
+        </a>
+        <button class="nav-btn theme-toggle-btn" aria-label="Toggle Theme">
+          <span class="theme-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+            </svg>
+          </span>
+        </button>
+        <button class="mobile-toggle" aria-label="Open Navigation Menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="page-hero">
+    <div class="container">
+      <div class="breadcrumbs">
+        <a href="index.html">Home</a>
+        <span>/</span>
+        <span>Projects</span>
+      </div>
+      <h1 class="page-title">Engineering <span class="highlight">Projects & Labs</span></h1>
+      <p class="page-subtitle">
+        Hands-on design, CAD drafting sets, structural prototypes, and environmental testing conducted throughout my first year in civil engineering.
+      </p>
+    </div>
+  </header>
+
+  <main class="container" style="padding-bottom: 5rem;">
+    <!-- Interactive Filter Buttons -->
+    <div class="project-filters">
+      <button class="filter-btn active" data-filter="all">All Projects (6)</button>
+      <button class="filter-btn" data-filter="structural">Structural Mechanics</button>
+      <button class="filter-btn" data-filter="cad">CAD Drafting</button>
+      <button class="filter-btn" data-filter="materials">Sustainable Materials</button>
+      <button class="filter-btn" data-filter="surveying">Surveying & Environment</button>
+    </div>
+
+    <!-- Projects Grid -->
+    <div class="projects-grid">
+      
+      <!-- Project 1: Truss Bridge -->
+      <div class="project-card" data-category="structural">
+        <div class="project-media">
+          <svg viewBox="0 0 240 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="240" height="120" fill="#131d34"/>
+            <line x1="20" y1="95" x2="220" y2="95" stroke="#f59e0b" stroke-width="3"/>
+            <polygon points="20,95 65,30 120,30 175,30 220,95" stroke="#38bdf8" stroke-width="2.5" fill="none"/>
+            <line x1="65" y1="30" x2="65" y2="95" stroke="#38bdf8" stroke-width="1.8"/>
+            <line x1="120" y1="30" x2="120" y2="95" stroke="#38bdf8" stroke-width="1.8"/>
+            <line x1="175" y1="30" x2="175" y2="95" stroke="#38bdf8" stroke-width="1.8"/>
+            <line x1="20" y1="95" x2="65" y2="30" stroke="#38bdf8" stroke-width="1.8"/>
+            <line x1="65" y1="95" x2="120" y2="30" stroke="#38bdf8" stroke-width="1.8"/>
+            <line x1="175" y1="95" x2="120" y2="30" stroke="#38bdf8" stroke-width="1.8"/>
+            <line x1="175" y1="95" x2="220" y2="95" stroke="#38bdf8" stroke-width="1.8"/>
+            <circle cx="120" cy="30" r="4" fill="#ef4444"/>
+            <path d="M120 10 L120 25 M116 20 L120 25 L124 20" stroke="#ef4444" stroke-width="2"/>
+          </svg>
+          <span class="project-category-tag">Structural Engineering</span>
+        </div>
+        <div class="project-content">
+          <h3 class="project-title">Pratt Truss Bridge Model & Load Optimization</h3>
+          <p class="project-description">
+            Constructed a scale Pratt truss bridge to investigate internal member tension/compression under point loads. Solved node forces analytically via Method of Joints, achieving 340:1 load-to-weight ratio.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">Engineering Mechanics</span>
+            <span class="tech-tag">Method of Joints</span>
+            <span class="tech-tag">Static Load Testing</span>
+          </div>
+          <div class="project-footer">
+            <button class="project-link-btn view-project-btn" data-project="truss-bridge">
+              <span>View Case Study Details</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2: Eco-Concrete -->
+      <div class="project-card" data-category="materials">
+        <div class="project-media">
+          <svg viewBox="0 0 240 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="240" height="120" fill="#131d34"/>
+            <polygon points="120,20 180,45 120,70 60,45" fill="#1e293b" stroke="#10b981" stroke-width="2"/>
+            <polygon points="60,45 120,70 120,105 60,80" fill="#0f172a" stroke="#10b981" stroke-width="2"/>
+            <polygon points="120,70 180,45 180,80 120,105" fill="#1e293b" stroke="#10b981" stroke-width="2"/>
+            <circle cx="90" cy="55" r="3" fill="#f59e0b"/>
+            <circle cx="140" cy="58" r="4" fill="#38bdf8"/>
+            <circle cx="85" cy="75" r="2.5" fill="#10b981"/>
+            <circle cx="150" cy="75" r="3" fill="#f59e0b"/>
+          </svg>
+          <span class="project-category-tag">Materials Science</span>
+        </div>
+        <div class="project-content">
+          <h3 class="project-title">Eco-Concrete with Fly Ash & Plastic Waste</h3>
+          <p class="project-description">
+            Laboratory mix formulation substituting 25% Portland cement with class-F pozzolanic fly ash and 10% fine aggregate with shredded PET plastics. Evaluated slump cone workability and 28-day curing strength.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">Concrete Mix Design</span>
+            <span class="tech-tag">Slump Test</span>
+            <span class="tech-tag">Fly Ash Pozzolana</span>
+          </div>
+          <div class="project-footer">
+            <button class="project-link-btn view-project-btn" data-project="green-concrete">
+              <span>View Case Study Details</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3: AutoCAD Plan -->
+      <div class="project-card" data-category="cad">
+        <div class="project-media">
+          <svg viewBox="0 0 240 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="240" height="120" fill="#131d34"/>
+            <rect x="40" y="20" width="160" height="80" stroke="#38bdf8" stroke-width="2"/>
+            <line x1="120" y1="20" x2="120" y2="100" stroke="#38bdf8" stroke-width="2"/>
+            <line x1="40" y1="60" x2="120" y2="60" stroke="#38bdf8" stroke-width="1.5"/>
+            <text x="65" y="45" fill="#38bdf8" font-size="9" font-family="monospace">BEDROOM</text>
+            <text x="65" y="85" fill="#38bdf8" font-size="9" font-family="monospace">KITCHEN</text>
+            <text x="145" y="65" fill="#38bdf8" font-size="9" font-family="monospace">LIVING</text>
+            <rect x="36" y="55" width="8" height="10" fill="#f59e0b"/>
+            <rect x="196" y="55" width="8" height="10" fill="#f59e0b"/>
+          </svg>
+          <span class="project-category-tag">AutoCAD 2024</span>
+        </div>
+        <div class="project-content">
+          <h3 class="project-title">2-BHK Residential Floor Plan & Elevation</h3>
+          <p class="project-description">
+            Complete set of architectural working drawings for a 1,250 sq.ft. residential residence, including column grids, door/window schedules, cross-sectional views, and municipal setback compliance.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">AutoCAD 2D</span>
+            <span class="tech-tag">Working Drawings</span>
+            <span class="tech-tag">Municipal Bye-Laws</span>
+          </div>
+          <div class="project-footer">
+            <button class="project-link-btn view-project-btn" data-project="autocad-plan">
+              <span>View Case Study Details</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 4: Campus Survey -->
+      <div class="project-card" data-category="surveying">
+        <div class="project-media">
+          <!-- Topographic Contours SVG -->
+          <svg viewBox="0 0 240 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="240" height="120" fill="#131d34"/>
+            <!-- Contour curves -->
+            <path d="M20 100 Q 80 40 150 70 T 220 30" stroke="#38bdf8" stroke-width="1.8" fill="none"/>
+            <path d="M20 80 Q 90 20 160 50 T 220 15" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="3 3" fill="none"/>
+            <path d="M40 115 Q 110 60 180 90 T 230 50" stroke="#38bdf8" stroke-width="1.5" fill="none"/>
+            <circle cx="150" cy="70" r="4" fill="#f59e0b"/>
+            <text x="160" y="74" fill="#f59e0b" font-size="9" font-family="monospace">BM = +104.2m</text>
+            <path d="M120 10 L120 25 M115 15 L120 10 L125 15" stroke="#10b981" stroke-width="2"/>
+            <text x="130" y="22" fill="#10b981" font-size="10" font-weight="bold">N</text>
+          </svg>
+          <span class="project-category-tag">Surveying & Geomatics</span>
+        </div>
+        <div class="project-content">
+          <h3 class="project-title">Campus Topographic Survey & Contour Mapping</h3>
+          <p class="project-description">
+            Executed closed-traverse surveying and differential leveling across a 4,500 sq.meter campus zone using Dumpy level and staff. Reduced levels via Height of Instrument method with 0.5m contour map.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">Dumpy Level</span>
+            <span class="tech-tag">HI & Rise-Fall Method</span>
+            <span class="tech-tag">Contour Mapping</span>
+          </div>
+          <div class="project-footer">
+            <button class="project-link-btn view-project-btn" data-project="campus-survey">
+              <span>View Case Study Details</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 5: Rainwater Harvesting -->
+      <div class="project-card" data-category="surveying">
+        <div class="project-media">
+          <!-- Hydraulic Harvesting SVG -->
+          <svg viewBox="0 0 240 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="240" height="120" fill="#131d34"/>
+            <!-- Roof sloped -->
+            <line x1="30" y1="40" x2="120" y2="20" stroke="#f59e0b" stroke-width="3"/>
+            <line x1="120" y1="20" x2="210" y2="40" stroke="#f59e0b" stroke-width="3"/>
+            <!-- Gutter pipe -->
+            <path d="M205 40 L205 75 L160 75 L160 95" stroke="#38bdf8" stroke-width="2.5" fill="none"/>
+            <!-- Filter tank -->
+            <rect x="140" y="80" width="40" height="30" rx="3" stroke="#10b981" stroke-width="2" fill="#0f172a"/>
+            <line x1="145" y1="90" x2="175" y2="90" stroke="#38bdf8" stroke-dasharray="2 2"/>
+            <line x1="145" y1="97" x2="175" y2="97" stroke="#f59e0b" stroke-dasharray="2 2"/>
+            <!-- Rain droplets -->
+            <line x1="70" y1="15" x2="75" y2="25" stroke="#38bdf8" stroke-width="1.5"/>
+            <line x1="160" y1="15" x2="165" y2="25" stroke="#38bdf8" stroke-width="1.5"/>
+          </svg>
+          <span class="project-category-tag">Hydraulics & Environment</span>
+        </div>
+        <div class="project-content">
+          <h3 class="project-title">Gravity-Fed Rainwater Harvesting Prototype</h3>
+          <p class="project-description">
+            Engineered rooftop runoff harvesting system design for academic blocks based on monsoonal rainfall records. Designed dual-stage gravel-sand-charcoal filter and aquifer recharge calculation.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">Hydraulic Runoff</span>
+            <span class="tech-tag">Filtration Bed Sizing</span>
+            <span class="tech-tag">Water Sustainability</span>
+          </div>
+          <div class="project-footer">
+            <button class="project-link-btn view-project-btn" data-project="rainwater-harvest">
+              <span>View Case Study Details</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 6: Seismic Damper Model -->
+      <div class="project-card" data-category="structural">
+        <div class="project-media">
+          <!-- Seismic Model SVG -->
+          <svg viewBox="0 0 240 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="240" height="120" fill="#131d34"/>
+            <!-- Ground line -->
+            <line x1="20" y1="105" x2="220" y2="105" stroke="#64748b" stroke-width="3"/>
+            <!-- Isolation bearings -->
+            <circle cx="80" cy="100" r="5" fill="#f59e0b"/>
+            <circle cx="160" cy="100" r="5" fill="#f59e0b"/>
+            <!-- Frame structure 3 stories -->
+            <rect x="70" y="25" width="100" height="70" stroke="#38bdf8" stroke-width="2"/>
+            <line x1="70" y1="48" x2="170" y2="48" stroke="#38bdf8" stroke-width="1.5"/>
+            <line x1="70" y1="72" x2="170" y2="72" stroke="#38bdf8" stroke-width="1.5"/>
+            <!-- Ground vibration wave -->
+            <path d="M25 112 Q 35 116 45 112 T 65 112 T 85 112" stroke="#ef4444" stroke-width="2" fill="none"/>
+            <text x="35" y="95" fill="#ef4444" font-size="9" font-family="monospace">GROUND HARMONIC</text>
+          </svg>
+          <span class="project-category-tag">Structural Dynamics</span>
+        </div>
+        <div class="project-content">
+          <h3 class="project-title">Seismic Base-Isolation Structural Model</h3>
+          <p class="project-description">
+            Scaled multi-story building model equipped with elastomeric base isolation bearings tested on a harmonic shake table. Demonstrated over 60% attenuation in peak top-floor lateral accelerations.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">Earthquake Mechanics</span>
+            <span class="tech-tag">Shake Table Testing</span>
+            <span class="tech-tag">Base Isolation</span>
+          </div>
+          <div class="project-footer">
+            <button class="project-link-btn view-project-btn" data-project="seismic-model">
+              <span>View Case Study Details</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Project Details Modal -->
+  <div class="modal-overlay" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalProjectTitle">
+    <div class="modal-dialog">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close Modal">&times;</button>
+      <div style="margin-bottom: 0.5rem;">
+        <span class="spec-badge" id="modalProjectCategory">Structural Engineering</span>
+      </div>
+      <h2 id="modalProjectTitle" style="font-size: 1.6rem; margin-bottom: 0.35rem;">Project Title</h2>
+      <p id="modalProjectTimeline" style="font-size: 0.85rem; color: var(--accent-amber); font-weight: 600; margin-bottom: 1.25rem;">Timeline</p>
+      
+      <p id="modalProjectSummary" style="font-size: 1rem; line-height: 1.7; margin-bottom: 1.5rem; color: var(--text-secondary);">Summary</p>
+
+      <h4 style="font-size: 1.05rem; margin-bottom: 0.75rem;">Key Engineering Highlights:</h4>
+      <ul id="modalProjectHighlights" style="list-style: disc; padding-left: 1.25rem; margin-bottom: 1.5rem; display: flex; flex-direction: column; gap: 0.5rem; color: var(--text-secondary); font-size: 0.95rem;">
+      </ul>
+
+      <h4 style="font-size: 1.05rem; margin-bottom: 0.75rem;">Tools & Methodologies Used:</h4>
+      <div id="modalProjectTools" class="course-tags">
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="brand-logo">
+            <div class="brand-icon">HK</div>
+            <div class="brand-text">
+              <span class="brand-name">Himanshu Kumawat</span>
+              <span class="brand-tag">Civil Engg Undergrad</span>
+            </div>
+          </div>
+          <p>Practical engineering projects driven by structural analysis and hands-on laboratory testing.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Pages</h4>
+          <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="education.html">Education</a>
+            <a href="skills.html">Skills</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Work</h4>
+          <div class="footer-links">
+            <a href="projects.html">Projects</a>
+            <a href="certifications.html">Certifications</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Social</h4>
+          <div class="footer-links">
+            <a href="https://github.com/himanshukumawat" target="_blank" rel="noopener noreferrer">GitHub Profile</a>
+            <a href="https://linkedin.com/in/himanshukumawat" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
+            <a href="contact.html">Message Me</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>&copy; 2026 Himanshu Kumawat • 1st Year Civil Engineering</div>
+        <div>Built with semantic HTML5, CSS3, & JS</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
